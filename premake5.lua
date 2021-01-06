@@ -24,11 +24,15 @@ project "box2d"
 		}
 
     filter "configurations:Debug"
-		runtime "Debug"
-		symbols "on"
+	  	runtime "Debug"
+      symbols "on"
+    
+    filter "configurations:MemoryProfile"
+	  	runtime "Release"
+	  	optimize "on"
 
     filter "configurations:Development"
-		runtime "Release"
+		  runtime "Release"
         optimize "on"
         
 	filter "configurations:Release"
