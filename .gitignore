@@ -13,3 +13,5 @@ bin-int/
 box2d.vcxproj
 
 box2d.vcxproj.filters
+
+Makefile
